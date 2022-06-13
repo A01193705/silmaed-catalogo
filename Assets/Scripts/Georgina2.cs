@@ -10,11 +10,7 @@ public class Georgina2 : MonoBehaviour
         SceneManager.LoadScene("GalleryView");
 
     }
-    public void Scene2()
-    {
-        SceneManager.LoadScene("VistaGeorgina2");
 
-    }
     public void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("VistaGeorgina2");

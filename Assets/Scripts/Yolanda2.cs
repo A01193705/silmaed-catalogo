@@ -10,11 +10,6 @@ public class Yolanda2 : MonoBehaviour
         SceneManager.LoadScene("GalleryView");
 
     }
-    public void Scene2()
-    {
-        SceneManager.LoadScene("VistaYolanda2");
-
-    }
     public void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("VistaYolanda2");

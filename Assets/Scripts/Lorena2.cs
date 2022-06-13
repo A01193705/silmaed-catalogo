@@ -10,11 +10,6 @@ public class Lorena2 : MonoBehaviour
         SceneManager.LoadScene("GalleryView");
         
     }
-    public void Scene2()
-    {
-        SceneManager.LoadScene("VistaLorena2");
-
-    }
     public void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("VistaLorena2");

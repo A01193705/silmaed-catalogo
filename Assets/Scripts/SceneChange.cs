@@ -10,6 +10,11 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("GalleryView");
         
     }
+    public void Scene2()
+    {
+        SceneManager.LoadScene("MainMenu");
+
+    }
     public void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("VistaInfo");
